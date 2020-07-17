@@ -1,0 +1,184 @@
+html,
+body {
+    height: 100%;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-image: url("/Users/CatalinaZecchin/Documents/Program/Projects/5template sky/clouds4.jpg");
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #EFEFF4; */
+    border: #EFEFF4;
+    box-shadow: 0px 10px 13px -12px #000;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto 450px;
+}
+
+#sixth {
+    text-align: center
+    display: inline-block;
+    margin-right: 40%;
+    margin-left: 40%;
+}
+
+h2 {
+    font-family: Bitter;
+    color: seashell;
+    opacity: 0.9;
+}
+
+
+.container2 {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+  }
+  
+  .paragraph {
+    width: 300px;
+    margin-bottom: 2%; /* (100-32*3)/2 */
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    border: #EFEFF4;
+    box-shadow: 0px 10px 13px -12px #000;
+    border-radius: 20px;
+    font-family: Amiri;
+  }
+  
+  /* Re-order items into rows 
+  .paragraph:nth-child(3n+1) { order: 1; }
+  .paragraph:nth-child(3n+2) { order: 2; }
+  .paragraph:nth-child(3n)   { order: 3; } */
+  
+  /* Force new columns 
+  .container2::before,
+  .container2::after {
+    content: "";
+    flex-basis: 100%;
+    width: 0;
+    order: 2;
+  }
+  */
+
+h1,
+h3 {
+  text-align: center;
+}
+
+.blue-square-container {
+  text-align: center;
+}
+
+.blue-square {
+  background-color: #0074D9;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.yellow-square {
+  background-color: #FFDC00;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+
+
+
+/*.green-square {
+  background-color: #3D9970;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+}
+*/
+
+
+/*      Text align method: Enclose the div that you want to center with a parent element (commonly known as a wrapper or container).
+set “text-align: center” to parent element, then set the inside div to “display: inline-block”   */
+
+/* The four steps to centering horizontally and vertically with Flexbox are the following:
+
+    HTML, body, and parent container need to have a height of 100%
+    Set display to flex on parent container
+    Set align-items to center on parent container
+    Set justify-content to center on parent container */
+
+
+    .container3 {
+        width:80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Roboto', sans-serif;
+      }
+      
+      #top-row, #mid-row, #bottom-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      
+      .circle {
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        border-radius: 50%;
+        border: 1px solid #ccc;
+      }
+      
+      .sub-text {
+        color: #EB6F80;
+      }
+      
+      .highlight {
+        background: #EFEFF4;
+        border: #EFEFF4;
+        box-shadow: 0px 10px 13px -12px #000;
+        }
+    
+        .container4 {
+            width:100%;
+            height: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column-reverse;
+            font-family: 'Goudy Old Style', sans-serif;
+            flex-wrap: wrap-reverse;
+          }
+
+          .secondCircle {
+            height: 70px;
+            width: 70px;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            border-radius: 50%;
+            border: 1px solid #ccc;
+          }
